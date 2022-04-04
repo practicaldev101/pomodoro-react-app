@@ -43,7 +43,7 @@ export default class Dashboard extends Component{
                     </div>
                     </div>
                     <div label="Configuración">
-                        <Form modifyBreakTime={this.modifyBreakTime} modifyStartTime={this.modifyStartTime} isTimeWorkThirty={this.state.isTimeWorkThirty}/>
+                        <Form modifyBreakTime={this.modifyBreakTime} modifyStartTime={this.modifyStartTime} isTimeWorkThirty={this.state.isTimeWorkThirty} isTimeBreakTwenty={this.state.isTimeBreakTwenty}/>
                     </div>
                 </Tabs>
             </div>
