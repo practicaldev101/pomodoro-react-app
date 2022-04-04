@@ -1,0 +1,22 @@
+.checkbox{
+    padding: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.checkbox--checked{
+    background:#2ecc71;
+}
+
+.time__image{
+    object-fit: cover;
+    width: 100px;
+}
+
+.group {
+    margin: auto;
+    text-align: center;
+}

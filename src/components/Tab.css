@@ -1,0 +1,18 @@
+.tab__item{
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background:  #d7dbdd ;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: all 1s ease 0s ;
+}
+
+.tab__item--active{
+    background:#2ecc71;
+    box-shadow:#2ecc71 0px 0px 5px 0px;
+}

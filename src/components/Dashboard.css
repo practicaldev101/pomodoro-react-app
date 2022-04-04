@@ -1,0 +1,27 @@
+@keyframes moveDashboard {
+    0%{
+        margin-top: -50%;
+    }
+    100%{
+        margin-top: 0%;
+    }
+}
+
+.dashboard {
+    background:#ecf0f1  ;
+    padding: 10px;
+    box-shadow: white 5px 5px 10px 0px;
+    border-radius: 15px;
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    animation: forwards 1s moveDashboard;
+}
+
+@media only screen and (max-width: 768px){
+    .dashboard{
+        width: 90%;
+    }
+}

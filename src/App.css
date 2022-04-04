@@ -1,0 +1,53 @@
+.container{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes moveLogo {
+    0%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+
+.logo-group{
+    animation: forwards 3s moveLogo ;
+}
+.logo{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    object-fit: cover;
+}
+
+.logo__title{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+}
+
+.row--h3{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    height: 50px;
+}
+
+.col{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,12 @@
+.tabs{
+    display: block;
+    width: 100%;
+    list-style: none;
+}
+
+.tab__list{
+    display: flex;
+    flex-flow: row;
+    gap: 2px;
+    border-bottom: 5px solid white;
+}
